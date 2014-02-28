@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TerracottaWithGroovy
+Bundle-SymbolicName: TerracottaWithGroovy
+Bundle-Version: 1.0.0
+Bundle-Activator: terracottawithgroovy.Activator
+Import-Package: groovy.lang,
+ org.codehaus.groovy.reflection,
+ org.codehaus.groovy.runtime,
+ org.codehaus.groovy.runtime.callsite,
+ org.osgi.framework;version="1.3.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: terracottawithgroovy
